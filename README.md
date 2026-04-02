@@ -5,8 +5,8 @@ a. Criar no Linux a pasta /tmp/exercicios <br>
 <p>i. valor: int = 0 </p>
 <p>ii. dir: str = ‘’</p>
 <p>iii. arq: str = ‘’</p>
-<p>iv. arq: str = ‘’</p>
-<br>c. Um procedimento main() que use valor como global e inicie uma variável contador
+<p>iv. arq: str = ‘’</p><br>
+c. Um procedimento main() que use valor como global e inicie uma variável contador
 e uma variável result, locais, peça ao usuário um valor entre 1 e 10 e chame 10 vezes
 a função mult(vlr, tab), passando o valor e o contador como parâmetros. O retorno
 da função deve ser retornado para a variável result. Por fim, ainda dentro da
