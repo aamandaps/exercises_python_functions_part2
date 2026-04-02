@@ -1,6 +1,6 @@
 ## Baseado no Ex. 34, fazer:
-a. Criar no Linux a pasta /tmp/exercicios
-i. Assegurar que ela tem permissão 744 (Fazer em Python)
+a. Criar no Linux a pasta /tmp/exercicios <br>
+<p>i. Assegurar que ela tem permissão 744 (Fazer em Python)</p>
 b. Declarar como globais, as variáveis:
 i. valor: int = 0
 ii. dir: str = ‘’
