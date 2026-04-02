@@ -24,33 +24,34 @@ concatenado com uma quebra de linha (‘\n’). Criar, baseado no material de au
 deve-se verificar se o diretório existe e é diretório e, em sendo verdadeiro, verificar
 se o arquivo existe (Para definir se o tipo da operação será w (write) ou a (append)),
 mas só pode mudar o tipo para ‘a’, se c for maior que 0. Gravar a linha no arquivo.</p>
+
 ## 2. Baseado no Ex. 21, fazer:
 a. Criar no Linux a pasta /tmp/exercicios
-<p>i. Assegurar que ela tem permissão 744 (Fazer em Python)</p><br>
-b. Declarar como globais, as variáveis:
+<p>i. Assegurar que ela tem permissão 744 (Fazer em Python)</p>
+<p>b. Declarar como globais, as variáveis:</p>
 <p>i. nome: str = ‘’</p>
 <p>ii. nota1, nota2, nota3, nota4, valor_media  float</p>
 <p>iii. dir: str = ‘’</p>
-<p>iv. arq: str = ‘’</p><br>
-c. Um procedimento main() que inicie uma variável contador, local e chame 5 vezes o
-procedimento entrada;<br>
-d. O procedimento entrada, usando os globais nome, nota1, nota2, nota3, nota4 e
+<p>iv. arq: str = ‘’</p>
+<p>c. Um procedimento main() que inicie uma variável contador, local e chame 5 vezes o
+procedimento entrada;</p>
+<p>d. O procedimento entrada, usando os globais nome, nota1, nota2, nota3, nota4 e
 valor_media, pede a entrada do nome, das notas, chama uma função med(n1, n2,
 n3, n4) que calcula e retorna o valor da média aritmética, exiba em console a média
-e, por fim, chame o procedimento cadastro(nm, nt1, nt2, nt3, nt4, vlr_med);<br>
-e. A função med, recebe como parâmetros, as 4 notas, inicializa uma variável local
+e, por fim, chame o procedimento cadastro(nm, nt1, nt2, nt3, nt4, vlr_med);</p>
+<p>e. A função med, recebe como parâmetros, as 4 notas, inicializa uma variável local
 media (float), que recebe o cálculo da média aritmética das notas e será o retorno
-da função;<br>
-f. O procedimento cadastro, recebe o nome do aluno, as 4 notas e a média como
+da função;</p>
+<p>f. O procedimento cadastro, recebe o nome do aluno, as 4 notas e a média como
 parâmetros, declara linha, como str e usa arq e dir como globais que devem ter dir
 = ‘/tmp/exercicios’ e arq = ‘ex21.txt’ . A variável linha deve receber uma operação de
 concatenar de nome, todas as notas e a média, sempre separados por ‘;’ e com
 quebra de linha ‘\n’ ao final. As variáveis numéricas, para serem concatenadas,
 devem passar por uma operação de cast (str(n1)). Por fim, deve chamar o
-procedimento escreveArq(caminho, arquivo, linha_arq).<br>
-g. A função escreveArq recebe, como parâmetros, o nome do diretório, o nome do
+procedimento escreveArq(caminho, arquivo, linha_arq).</p>
+<p>g. A função escreveArq recebe, como parâmetros, o nome do diretório, o nome do
 arquivo e a linha concatenada, para ser gravada no arquivo. Deve declarar file, tipo
 e enc como str vazios. Baseado no material de aula, deve-se verificar se o diretório
 existe e é diretório e, em sendo verdadeiro, verificar se o arquivo existe (Para definir
 se o tipo da operação será w (write) ou a (append)) e gravar no arquivo o conteúdo
-da variável linha_cad.
+da variável linha_cad.</p>
